@@ -1,0 +1,220 @@
+/*============================== general ==============================*/
+
+.hero{
+  padding: 18px;
+}
+
+
+.bottom-border{
+  width: 100%;
+  background: linear-gradient(to left, #1FA2FF, #0cebeb, #29ffc6);
+  background: -webkit-linear-gradient(to left, #1FA2FF, #0cebeb, #29ffc6);
+  background: -moz-linear-gradient(to left, #1FA2FF, #0cebeb, #29ffc6);
+  background: -ms-linear-gradient(to left, #1FA2FF, #0cebeb, #29ffc6);
+  height: 7px;
+
+}
+
+.hero h1{
+  margin-bottom: 5px;
+
+}
+
+
+.btn{
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: #1FA2FF;
+  border: none;
+  transition: all 0.5s ease;
+
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: blue;
+  border-color: grey;
+}
+
+.btn.active.focus, .btn.active:focus,
+.btn.focus, .btn:active.focus,
+.btn:active:focus, .btn:focus {
+      outline: none;
+      background-color: #1FA2FF;
+}
+h1{
+  font-family: 'Roboto Slab', serif;
+}
+
+p, li{
+  font-family: 'Roboto', sans-serif;
+  color: grey;
+}
+
+ul{
+  display: inline!important;
+  padding: 0 0;
+  text-align: right;
+  float: right;
+
+}
+
+li{
+  clear: both;
+  list-style-type: none;
+
+}
+
+i{
+  color: #D8DFE2;
+  margin: 20px;
+  border: 3px solid #0cebeb;
+  width: 140px;
+	height: 140px;
+  padding: 20px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+
+}
+
+
+/*============================== head section ==============================*/
+
+#head h1{
+  padding-top: 10px;
+  color: #2E3B3E;
+
+}
+
+
+#lead-paragraph{
+  padding: 35px;
+}
+
+#lead-paragraph p{
+  line-height: 30px;
+}
+
+#lead-paragraph span{
+  font-weight: bold;
+  color: black;
+}
+
+/*============================== project section ==============================*/
+
+#projects{
+  margin-bottom: 50px;
+}
+
+.project-block{
+  width: 100%;
+  background:linear-gradient(to left, #1FA2FF, #0cebeb, #29ffc6);
+  background: linear-gradient(to left, #1FA2FF, #0cebeb, #29ffc6);
+  background: -webkit-linear-gradient(to left, #1FA2FF, #0cebeb, #29ffc6);
+  background: -moz-linear-gradient(to left, #1FA2FF, #0cebeb, #29ffc6);
+  background: -ms-linear-gradient(to left, #1FA2FF, #0cebeb, #29ffc6);
+  height: 70px;
+}
+
+.project-block h1{
+  padding: 15px;
+  margin-left: 70px;
+  color: white;
+  font-weight: 100;
+}
+
+.project-1 h2{
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: #29ffc6;
+  font-size: 2rem;
+}
+
+.project-3 h2{
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: #29ffc6;
+  font-size: 2rem;
+
+}
+
+.project-2 h2{
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: #29ffc6;
+  font-size: 2rem;
+}
+
+
+.project-1{
+  border-right: 5px solid #F9F9F9;
+}
+
+.project-2{
+  border-left: 5px solid #F9F9F9;
+  padding-bottom: 25px;
+}
+
+/*============================== recommend section ==============================*/
+
+
+#recommend{
+  padding: 25px;
+  margin-bottom: 40px;
+}
+
+#recommend h2{
+  color: #29ffc6;
+
+}
+
+/*============================== media query ==============================*/
+
+@media only screen and (max-width: 770px) {
+  #head{
+    text-align: center;
+
+  }
+
+
+  #head ul{
+   text-align: center;
+   float:none;
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+
+}
+
+  h1{
+    text-align: center;
+  }
+
+  .project-1{
+    border-right: none;
+  }
+
+  .project-block h1{
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+
+  #projects{
+    text-align: center;
+  }
+
+  .btn{
+    width: 50%;
+  }
+
+  .project-1{
+    border-right: none;
+  }
+
+  .project-2{
+    padding-bottom: 50px;
+    border-left: none;
+ }
+}
